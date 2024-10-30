@@ -1,0 +1,74 @@
+.ui-autocomplete {
+	margin-top: -3px; 
+	margin-left: 0px; 	
+	border-radius: 5px;
+	box-shadow:  0 0 0px 1px #cccccc, 0px 0px 7px 3px #cccccc;
+	background-color: white;
+	padding:5px 10px;
+	/*white-space:nowrap;*/
+	overflow: visible;
+	font-size: 13px;
+	text-align: left;
+	z-index: 10000;
+	position:absolute;
+}
+
+.ui-helper-hidden-accessible {
+	display:none;	
+}
+
+.ui-autocomplete li {
+	color: #999;	
+}
+
+.ui-autocomplete a {	
+	width: auto; 
+	display:block;
+	color: gray;
+}
+
+.ui-autocomplete a:hover {	
+	width: auto; 
+	display:block;
+	color: gray;
+	text-decoration: none;
+}
+
+.ui-autocomplete .ui-state-focus {
+	background-color:#eeeeee; 
+	padding: 1px 3px 1px 3px;
+	margin: -1px -3px -1px -3px;
+	color: gray;
+	text-decoration: none;
+}
+
+#content .docresultcount {	
+	margin-top: -10px;
+}
+
+.entry-summary a {
+	white-space: nowrap;
+}
+
+/* In the search results */
+.KeywordHighlight , .TermHighlight { 
+	cursor:pointer;
+	/*border-bottom: 1px dotted black;*/
+	background-color: #EEEEEE;
+}
+
+.KeywordHighlight {
+    color: #73990E;
+}
+
+.TermAnnotation { /* in all pages */
+	cursor:pointer;
+}
+
+.entry-summary p {
+	word-wrap: break-word;
+}
+
+#CrawlOptionsData input[type=button], #CrawlOptionsData input[type=submit] {
+	margin-left: 0px;
+}

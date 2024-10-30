@@ -1,0 +1,1 @@
+Edit the .po files with PoEdit, and this will automatically generate the .mo file.

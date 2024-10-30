@@ -1,0 +1,199 @@
+body, table {
+	font-family: sans-serif;
+	font-size: 12px;
+}
+
+#ContentDiv {
+	width: 200px;
+}
+
+#CrawlDelay, #CrawlThreadCount {
+	width: 40px;
+}
+
+.TableHeader {
+	font-weight: bold;	
+}
+
+.queries {
+	border-spacing: 0;
+	border-collapse: collapse;
+}
+
+.queries td {
+	border: 1px solid lightgray;
+	padding: 2px 10px;	
+}
+
+#CrawlingInformation td {
+	padding-right: 30px;	
+}
+
+input:[type="submit"] {
+	height: 22px;
+}
+
+.gui_table_sortingheader {
+	width: auto;
+}
+
+thead .gui_table_topaction {
+	display:none;
+}
+
+.gui_table_topaction {
+	text-align: center;
+}
+
+table.gui_table, .ti-userselect {
+	border: none;	
+	border-spacing: 0;
+	border-collapse: collapse;
+}
+table.gui_table td, table.gui_table th, .ti-userselect td, .ti-userselect th {
+	border: 1px solid lightgray;
+	padding: 2px 10px;	
+}
+
+tr.gui_table_headers {
+	background: none;
+}
+
+table.gui_table .alignCenter {
+	text-align: center;
+}
+table.gui_table .alignRight {
+	text-align: right;
+}
+
+.ti-userselect th {
+	width: auto;
+}
+
+.form-table .ti-userselect td {
+	padding: 0px 10px;
+	line-height: 16px;
+}
+
+.awesomeFont {
+	font-family: FontAwesome;
+}
+
+.ti_info {
+	font-family: FontAwesome;
+	cursor: pointer;
+	color: gray;
+}
+
+#OntologyTable table.gui_table {
+	width: 100%;
+}
+
+.kaimbo_bold {
+	font-weight: bold;
+}
+
+.kaimbo_table1 tr:hover {
+	background-color: #eeeeee;
+}
+
+#kaimbo_moreLogs, #kaimbo_requirements {
+	cursor: pointer;
+}
+
+#kaimbo_feedback {
+	line-height: 2em;
+}
+#kaimbo_feedback textarea {
+	width: 340px;
+	height:100px;	
+	line-height: 1em;
+}
+#kaimbo_feedback input[type="submit"] {
+	float:right;
+}
+
+#kaimbo_SearchResult {
+	max-width: 600px;
+	max-height: 500px;
+}
+
+#kaimbo_SearchResult_inside {
+	max-height: 500px;
+	overflow-y: scroll;
+}
+
+.kaimbo_tab_title {
+	display: inline-block;
+	font-weight: bold;	
+}
+
+.kaimbo_Options_tab {
+	margin-top: 10px;
+	margin-right: 10px;
+	padding: 0px 10px 10px 10px;
+	border: solid lightgray 1px;	
+}
+
+.kaimbo_tab_title.pushed {
+	background-color: #e6e6e6;
+	background-position: 0 -15px;
+}
+
+.kaimbo_tabs_header {
+	margin-top: 10px;
+}
+
+.autocomplete {
+	margin-top: 10px;
+}
+
+#kaimbo_deleteTerm {
+	width: 200px;
+	height: 80px;
+}
+
+#OntologyTable .icon-remove, #kaimbo_deleteTerm a {
+	color: gray;
+	text-decoration: none;
+}
+
+.kaimbo_Options_tab .form-table {
+	margin-bottom: 20px;
+}
+
+/*.kaimbo_Options_tab .form-table th {
+	padding: 5px 10px;
+}*/
+
+input[type=checkbox] {
+	vertical-align: text-bottom;
+	margin: 0;
+}
+
+
+/* for the old prototype autocomplete, which stays in the backend xweb.*/
+.autocomplete { 
+	margin-left: 0px; 	
+	border-radius: 5px;
+	box-shadow:  0 0 0px 1px #cccccc, 0px 0px 7px 3px #cccccc;
+	background-color: white;
+	padding:5px 10px;
+	white-space:nowrap;
+	overflow: visible;
+	font-size: 13px;
+	text-align: left;
+	z-index: 10000;
+	position:absolute;
+	width: auto;
+}
+
+.autocomplete span {
+	color: #999;
+}
+
+.autocomplete .selected {
+	background-color:#eeeeee; 
+	padding: 1px 3px 1px 3px;
+	margin: -1px -3px -1px -3px;
+}
